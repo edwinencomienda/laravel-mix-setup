@@ -20,7 +20,7 @@ mix.browserSync({
     proxy: false,
     notify: false,
     server: {
-        baseDir: './src'
+        baseDir: './dist'
     },
     files: ['./src/**']
 });
