@@ -26,7 +26,7 @@ mix.browserSync({
 });
 
 mix.html({
-    htmlRoot: './src/index.html', // Your html root file
+    htmlRoot: './src/*.html', // Your html root file
     output: 'dist', // The html output folder
     partialRoot: './src/partials',    // default partial path
     minify: {
